@@ -14,6 +14,7 @@ class Snake:
         self.snake_squares = []
         self.create_snake()
         self.head = self.snake_squares[0]
+        self.snake_squares[0].color("OliveDrab4")
 
     def create_snake(self):
         for positions in STARTING_POSITION:
